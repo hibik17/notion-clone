@@ -1,9 +1,11 @@
 <template>
-  <div class="text-red-400">
-    {{ msg }}
+  <div class="w-[87%] mx-auto">
+    <HeaderLayout />
+    <FirstContent />
   </div>
 </template>
 
 <script setup lang="ts">
-const msg = "hello vue";
+import HeaderLayout from "@/components/templates/HeaderLayout.vue";
+import FirstContent from "@/components/organisms/FirstContent.vue";
 </script>
