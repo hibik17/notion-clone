@@ -1,5 +1,5 @@
 <template>
-  <img :src="`${logo}`" alt="company logo" class="object-cover w-20" />
+  <img :src="`${logo}`" alt="company logo" class="object-fill h-5 w-15" />
 </template>
 
 <script setup lang="ts">
