@@ -22,7 +22,7 @@
 import FirstContentImgVue from "../atoms/FirstContentImg.vue";
 import FirstContentTitle from "../atoms/FirstContentTitle.vue";
 import ContentText from "../atoms/ContentText.vue";
-import RedButton from "../atoms/RedButton.vue";
+import RedButton from "../atoms/Button.vue";
 import CompanyLogos from "../molecules/CompanyLogos.vue";
 
 const mainContent = `Notionは単なるドキュメントやテーブルではありま

@@ -3,6 +3,9 @@
     <HeaderLayout />
     <FirstContent />
     <SecondContent />
+    <div class="my-[50px]">
+      <hr />
+    </div>
   </div>
 </template>
 
