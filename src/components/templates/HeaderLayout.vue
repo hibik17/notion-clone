@@ -11,7 +11,7 @@
                 alt="notion icon"
                 class="w-4 h-4"
               />
-              <span class="font-serif px-1">Notion</span>
+              <span class="px-1 font-serif">Notion</span>
             </li>
             <li class="pr-3">製品</li>
             <li class="pr-3">ダウンロード</li>

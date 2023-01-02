@@ -1,5 +1,5 @@
 <template>
-  <p class="text-slate-400 text-sm whitespace-pre-line">{{ content }}</p>
+  <p class="text-sm whitespace-pre-line text-slate-400">{{ content }}</p>
 </template>
 
 <script setup lang="ts">

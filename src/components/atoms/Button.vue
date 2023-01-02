@@ -5,3 +5,11 @@
     Notionを無料で使ってみる
   </div>
 </template>
+
+<script setup lang="ts">
+type Props = {
+  color: string;
+};
+
+defineProps<Props>();
+</script>

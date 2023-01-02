@@ -11,7 +11,7 @@
           <CompanyLogos />
         </div>
       </div>
-      <div class="w-full h-56 flex justify-end">
+      <div class="flex justify-end w-full h-56">
         <FirstContentImgVue />
       </div>
     </div>
@@ -23,7 +23,7 @@ import FirstContentImgVue from "../atoms/FirstContentImg.vue";
 import FirstContentTitle from "../atoms/FirstContentTitle.vue";
 import ContentText from "../atoms/ContentText.vue";
 import RedButton from "../atoms/RedButton.vue";
-import CompanyLogos from "../molecules/companyLogos.vue";
+import CompanyLogos from "../molecules/CompanyLogos.vue";
 
 const mainContent = `Notionは単なるドキュメントやテーブルではありま
 せん。望み通りに機能するようにNotionをカスタマ

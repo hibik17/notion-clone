@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import CompanyLogo from "../atoms/companyLogo.vue";
+import CompanyLogo from "../atoms/CompanyLogo.vue";
 
 const companyLogoArray = [
   "https://images.ctfassets.net/spoqsaf9291f/37B7qVI9fp06fAJU1ixRim/41a0d5f4c8d867e86c08c5defc6c26f3/mitsubishi-logo.png",
