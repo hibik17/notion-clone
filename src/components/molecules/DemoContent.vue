@@ -13,9 +13,7 @@
             class="w-1/3 drop-shadow-2lg"
           />
           <!-- Title -->
-          <p class="font-mono font-semibold whitespace-pre-wrap">
-            {{ title }}
-          </p>
+          <ContentTitle :title="title" />
           <!-- Body -->
           <ContentText :content="content" />
         </div>
@@ -26,6 +24,7 @@
 
 <script setup lang="ts">
 import ContentText from "../atoms/ContentText.vue";
+import ContentTitle from "../atoms/ContentTitle.vue";
 
 type Props = {
   title: String;

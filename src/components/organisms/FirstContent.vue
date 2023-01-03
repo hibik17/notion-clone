@@ -4,7 +4,7 @@
       <div class="h-56">
         <FirstContentTitle />
         <ContentText :content="mainContent" />
-        <RedButton />
+        <Button :color="'bg-red-400'" />
         <ContentText :content="subContent" />
         <!-- 協賛企業紹介 -->
         <div class="grid grid-cols-5 gap-1">
@@ -22,7 +22,7 @@
 import FirstContentImgVue from "../atoms/FirstContentImg.vue";
 import FirstContentTitle from "../atoms/FirstContentTitle.vue";
 import ContentText from "../atoms/ContentText.vue";
-import RedButton from "../atoms/Button.vue";
+import Button from "../atoms/Button.vue";
 import CompanyLogos from "../molecules/CompanyLogos.vue";
 
 const mainContent = `Notionは単なるドキュメントやテーブルではありま
