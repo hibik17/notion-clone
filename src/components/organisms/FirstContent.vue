@@ -2,7 +2,10 @@
   <div class="mt-[70px]">
     <div class="grid grid-cols-2 gap-2">
       <div class="h-56">
-        <FirstContentTitle />
+        <ContentTitle
+          title="ひとつのワークスペース すべてのチーム"
+          :text_class="'text-[33px] tracking-wide'"
+        />
         <ContentText :content="mainContent" />
         <Button :color="'bg-red-400'" />
         <ContentText :content="subContent" />
@@ -20,10 +23,10 @@
 
 <script setup lang="ts">
 import FirstContentImgVue from "../atoms/FirstContentImg.vue";
-import FirstContentTitle from "../atoms/FirstContentTitle.vue";
 import ContentText from "../atoms/ContentText.vue";
 import Button from "../atoms/Button.vue";
 import CompanyLogos from "../molecules/CompanyLogos.vue";
+import ContentTitle from "../atoms/ContentTitle.vue";
 
 const mainContent = `Notionは単なるドキュメントやテーブルではありま
 せん。望み通りに機能するようにNotionをカスタマ
